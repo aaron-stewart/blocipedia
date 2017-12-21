@@ -36,6 +36,8 @@ source 'https://rubygems.org'
  gem 'thor', '0.20.0'
 
  gem 'bootstrap-sass'
+ # Use for authentification 
+ gem 'devise'
 
  group :development do
    gem 'listen', '~> 3.0.5'
