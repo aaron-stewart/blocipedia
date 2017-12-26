@@ -23,4 +23,4 @@
 .byebug_history
 
 # Ignore sensitive api keys
-/config/application.yml
+/config/secrets.yml
