@@ -5,7 +5,7 @@ require_relative 'application'
 ActionMailer::Base.delivery_method = :smtp
 ActionMailer::Base.smtp_settings = {
   :user_name => 'apikey',
-  :password => secret_key_sendgrid,
+  :password => Rails.application.secrets.secret_key_sendgrid,
   :domain => 'blocipedia.com',
   :address => 'smtp.sendgrid.net',
   :port => 587,
